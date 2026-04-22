@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Это заголовок тайтл</title>
+
+    <script defer src="build.f55139d631e3dbb01364.js"></script><link href="build.4d52e02b1bd09bfd9393.css" rel="stylesheet"></head>
+	<body>
+
+<script>
+let div = document.createElement('div'); //контейнер для размещения настроек (хотелось, чтобы настройки не были в блоке со стикерами и размещались в одном месте экрана)
+// если не создать данный контейнер в файле index.html, то будет ошибка (подключение к контейнеру будет раньше, чем он будет создан)
+div.id = 'settings';
+div.style.width = '200px';
+div.style.height = '200px';
+document.body.appendChild(div);
+
+</script>
+
+</body>
+</html>
